@@ -1,6 +1,6 @@
 package com.syntax.class13;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Q2 {
 
@@ -17,18 +17,15 @@ public class Q2 {
 //				System.out.println("prime" );
 //			}
 //			
-		//}
-System.out.println("----------------");
+		// }
+		System.out.println("----------------");
 
-int numbers=0;
-int number1=1;
+		String s= "hitheret12345!@";
+		String s1=s.replaceAll("[A-Za-z]", "");
+		int num=s1.length();
+		System.out.println(num);
 
+				
+	}
 
-for (int i=0; i>=55; i++) {
-	if ()
-	
-}
-
-		
-}
 }
