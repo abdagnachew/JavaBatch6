@@ -20,20 +20,21 @@ public class StaticKeyword {
 	void displaySpecifications() {
 		System.out.println("We build phone with " + memory + " GB memory in " + color);
 	}
-
+	// Static methods cannot access nonstatic memeber sof the claass
+	// static void displaySpecifications() {
+	// System.out.println("We build phone with " + memory + " GB memory in " +
+	// color);
 	public static void main(String[] args) {
-
 		brand = "iPhone";
 		touchScreen = true;
 
 		// accessing instance variables through the instance of the class
 		StaticKeyword obj = new StaticKeyword();
-
 		obj.color = "grey";
 		obj.memory = 64;
 		// accessing static method in a static way
 		displayGeneralInformation();
-		//accessing static method in a non-static way through instance. 
+		// accessing static method in a non-static way through instance.
 		obj.displaySpecifications();
 
 	}

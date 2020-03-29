@@ -14,6 +14,14 @@ public class StaticKeywordTest {
 		sk.color = "red";
 		sk.memory = 128;
 		sk.displaySpecifications();
+		
+		StaticKeyword sk1=new StaticKeyword();
+		sk1.color="red";
+		sk1.memory=128;
+		
+		StaticKeyword sk2=new StaticKeyword();
+		StaticKeyword.brand="Nokia";
+		sk2.color="blue";
 
 	}
 
